@@ -1,6 +1,6 @@
 Place the fmw_12.2.1.3.0_wls.jar and server-jre-8u181-linux-x64.tar.gz under roles/setup-weblogic/files/
 
-Place the sample ear/war file under roles/setup-weblogic/files/
+Place the sample ear/war file under roles/app-deployment/files/
 
 Weblogic setup:
 ansible-playbook -i hosts -vv playbook.yaml --tags install
