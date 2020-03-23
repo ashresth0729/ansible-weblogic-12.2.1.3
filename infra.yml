@@ -23,12 +23,12 @@ admin_AdministrationPort: 9001
 # At later point you can extend the cluster or remove the members or even create new cluster as per your need
 # PACK and UNPACK will also be done.
 # 
-ManagedServer1_Name: Rite-Common
-ManagedServer1_Port: 7003
-ManagedServer2_Name: csc-ui
-ManagedServer2_Port: 7005
-ManagedServer3_Name: ivr-ws
-ManagedServer3_Port: 7006
+ManagedServer1_Name: ms1
+ManagedServer1_Port: 7002
+ManagedServer2_Name: ms2
+ManagedServer2_Port: 7003
+ManagedServer3_Name: ms3
+ManagedServer3_Port: 7004
 ClusterName: mwiCluster
 
 
